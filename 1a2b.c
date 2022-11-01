@@ -31,8 +31,8 @@ int compare_answer(char *ans, char *user)
 
 int main(int argc, char *argv[])
 {
-	char ans[]="0000";
-	char user[]="0000";
+	char ans[]="xxxx";
+	char user[]="xxxx";
 	generate_random(ans);
 	do{
 		printf("Please input:");
