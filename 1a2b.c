@@ -21,10 +21,7 @@ int compare_answer(char *ans, char *user)
 	for(int i=0;i<4;i++)
 		for(int j=0;j<4;j++)
 			if(ans[i]==user[j])
-				if(i==j)
-					a++;
-				else
-					b++;
+				(i==j)?a++:b++;
 	printf("%dA%dB\n",a,b);
 	return a-4;
 }
